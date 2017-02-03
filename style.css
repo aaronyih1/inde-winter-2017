@@ -74,6 +74,9 @@ nav ul li a:hover{
 nav ul li a::before{
 	content: "=";
 }
+nav ul li a:hover::before{
+	content: "+";
+}
 #left_nav{
 	width: 300px;
 	margin-top:30px;
