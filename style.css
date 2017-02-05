@@ -15,11 +15,8 @@ table{
 /*	background-color: red;*/
 }
 footer{
-	margin-left:350px;
+	margin-left:400px;
 	margin-right:50px;
-}
-p{
-	font-size:20pt;
 }
 a{
 	text-decoration: none;
@@ -27,34 +24,11 @@ a{
 a:visited{
 	color:black;
 }
-.profile_pic{
-	width:100px;
-}
-.footer_links{
-	display: block;
-}
-.icon_image{
-	width:60px;
-}
-#logo{
-	width:350px;
-}
+
 #who_we_are{
 	margin-top:250px;
 	line-height: 35pt;
-}
-#icon_container{
-	list-style-type: none;
-	display: inline-block;
-}
-#icon_container li{
-	display: inline-block;
-}
-#footer_table{
-	width:100%;
-}
-#footer_column_two{
-	text-align: right;
+	font-size:20pt;
 }
 
 /*//////////NAVIGATION////////////*/
@@ -66,6 +40,7 @@ nav{
 nav ul{
 	list-style-type: none;
 	line-height: 35pt;
+	padding:0;
 }
 nav ul li a:hover{
 	background-color: black;
@@ -80,12 +55,76 @@ nav ul li a:hover::before{
 #left_nav{
 	width: 300px;
 	margin-top:30px;
+	margin-left: 40px;
+	height:100vh;
 }
 #announcement{
-	padding-left:40px;
+	display: inline-block;
+	color:red;
+}
+#logo{
+	width:100%;
 }
 
 /*//////////MEMBERS////////////*/
+#members{
+	margin-top:100px;
+}
 #members ul{
 	list-style-type: none;
+	padding:0;
+}
+#members ul li{
+	margin-bottom: 30px;
+}
+.image_container{
+	border-radius: 100px;
+	width:200px;
+	height:200px;
+	overflow: hidden;
+}
+.profile_pic{
+	width:100%;
+}
+.user_text{
+	margin:0;
+	margin-left: 40px;
+}
+#user_description{
+	font-size:16pt;
+}
+
+/*//////////FOOTER////////////*/
+#icon_container{
+	list-style-type: none;
+	display: inline-block;
+	padding:0;
+}
+#icon_container li{
+	display: inline-block;
+}
+#footer_table{
+	width:100%;
+}
+#footer_column_two{
+	text-align: right;
+	font-size: 16pt;
+}
+.footer_links{
+	display: block;
+	font-size: 20pt;
+}
+.footer-hr{
+	color:black;
+	margin: 10px 0;
+	width:65px;
+	background:black; 
+	border:0; 
+	height:3px
+}
+.icon_image{
+	width:30px;
+}
+#contact-title{
+	text-decoration: underline;
 }
